@@ -8,6 +8,9 @@ on:
     # Once when deploying a version is a good compromise.
     tags:
       - '*'
+      
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
 
