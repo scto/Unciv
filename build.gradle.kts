@@ -31,6 +31,7 @@ kotlin {
 // Plugins used for serialization of JSON for networking
 plugins {
     id("io.gitlab.arturbosch.detekt").version("1.23.0-RC3")
+    id("org.ec4j.editorconfig") version("0.1.0")
     // For some weird reason, the *docker build* fails to recognize linking to the shared kotlinVersion in plugins
     // This is *with* gradle 8.2 downloaded according the project specs, no idea what that's about
     kotlin("multiplatform") version "1.9.24"
